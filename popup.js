@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.OPEN_AI_TOKEN}`,
+          'Authorization': `Bearer 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`,
         },
 
         body: JSON.stringify({
