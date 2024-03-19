@@ -1,3 +1,5 @@
+import 'dotenv/config'
+
 document.addEventListener('DOMContentLoaded', function () {
   const chatContainer = document.getElementById('chat-container');
   const chatMessages = document.getElementById('chat-messages');
@@ -41,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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',
+          'Authorization': `Bearer ${process.env.OPEN_AI_TOKEN}`,
         },
 
         body: JSON.stringify({
