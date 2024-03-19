@@ -1,0 +1,78 @@
+/* Add or modify these styles in your existing style.css file */
+
+/* Dark Mode (default) */
+body {
+  width: 350px;
+  padding: 20px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; /* Ensure space between logo and chat container */
+  align-items: center;
+}
+
+#logo-container {
+  margin-right: 20px; /* Adjust the margin for spacing */
+  display: inline;
+  align-items: left;
+}
+
+#chat-container {
+  flex-grow: 1;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#chat-messages {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #444; /* Dark background color */
+}
+
+#user-input {
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #444; /* Dark background color */
+}
+
+#send-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+#send-btn:hover {
+  background-color: #297fb8;
+  color: #fff;
+}
+
+/* Logo styles */
+#logo-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  width: 100px;
+}
