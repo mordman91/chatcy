@@ -1,5 +1,3 @@
-import 'dotenv/config'
-
 document.addEventListener('DOMContentLoaded', function () {
   const chatContainer = document.getElementById('chat-container');
   const chatMessages = document.getElementById('chat-messages');
